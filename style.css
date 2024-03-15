@@ -7,7 +7,12 @@
   padding: 5px;
   border-radius: 10px;
   font-family: monospace;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
 }
+
 .contact {
   background-color: #f3f3f3;
   border-radius: 10px;
@@ -15,7 +20,12 @@
   padding: 20px;
   margin: 15px;
   width: 400px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
 }
+
 .photo {
   width: 120px;
   height: 120px;
@@ -25,18 +35,31 @@
 
 .info {
   margin-left: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  flex-wrap: nowrap;
+  width:145.7px;
+  flex-shrink: 0;
+  flex-grow: 1;
 }
+
 .info p {
   font-size: 22px;
 }
 
 .buttons {
   padding: 0 10px;
-}
+  height: 133.81px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
 
+}
 .call,
 .message {
   width: 30px;
+  flex-direction: column;
 }
 
 /* ----Tvoje styly----- */
